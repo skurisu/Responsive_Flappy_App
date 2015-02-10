@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <title>Flappy App</title>
 </head>
 <body>
   <header class="head_wrapper">
-    <div class="inner">
+
+    <div class="inner clearfix">
       <div class="logo_wrapper">
         <div class="flappy_app">
           <div class="flappy">flappy</div>
-          <div class="app">app</div>
+          <div class="app"><span class="white_text">app</span></div>
         </div><!-- .flappy_app -->
-        <img src="" class="birdy">
+        <img src="/images/logo.png" class="birdy">
       </div><!-- .logo_wrapper -->
 
       <nav>
@@ -31,8 +33,8 @@
   <div class="gameinfo_wrapper">
     
     <div class="inner">
-      <div class="featured">
-        <img src="" class="game_pic">
+      <div class="featured clearfix">
+        <div class="game_pic"></div>
         <ul class="features_menu">
           <li>features</li>
           <li><span class="white_text">23</span> different modes</li>
@@ -41,15 +43,16 @@
           <li><span class="white_text">2x</span> the flappiness of v1</li>
         </ul>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quas, repellat non quis cumque? Totam aperiam, quam quibusdam velit deleniti fuga unde. Laboriosam, quis? Aperiam voluptatem qui sit praesentium quaerat.
+      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quas, repellat non quis cumque? Totam aperiam, quam quibusdam velit deleniti fuga unde. Laboriosam, quis? Aperiam voluptatem qui sit praesentium quaerat.
       </p>
     </div><!-- .inner -->
   </div><!-- .gameinfo_wrapper -->
 
   <div class="footer_wrapper">
+
     <div class="inner">
-      <div class="footer_links">
-        <ul class="about">
+      <div class="footer_links clearfix">
+        <ul class="about margin">
           <li>about</li>
           <li>specs</li>
           <li>pricing</li>
@@ -57,7 +60,7 @@
           <li>sign up</li>
         </ul>
 
-        <ul class="licenses">
+        <ul class="licenses margin">
           <li>commercial licenses</li>
           <li>education</li>
           <li>case studies</li>
@@ -65,7 +68,7 @@
           <li>documentation</li>
         </ul>
 
-        <ul class="tutorials">
+        <ul class="tutorials margin">
           <li>tutorials</li>
           <li>events</li>
           <li>blog</li>
